@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 440px;
+    overflow: hidden;
+    color: red;
+    white-space: nowrap;
+    box-shadow: 1rem 0 0 #f1e100;
+    animation: mark .5s step-end infinite alternate, write 3s steps(22, end);
+}
+@keyframes write {
+    0%{
+        width: 0;
+    }
+}
+@keyframes mark{
+    50%{
+      box-shadow: 1rem 0 0 transparent;
+    }
+}
+/* https://youtu.be/4As2elixF6o?si=TBOQEQitpxgy77mw */
+/* https://youtu.be/8OHhNY4dxno?si=JAd9IiYnYF5T0Q9J */

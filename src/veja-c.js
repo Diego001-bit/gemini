@@ -1,0 +1,74 @@
+export let tudoAqui=[document.getElementById("sobre-home"),document.getElementById("funcionalidades-home"),document.getElementById("beneficios-home"),document.getElementById("contato-home")]
+let escreverAqui = document.getElementById("esc-aqui")
+
+
+export function escreva(){
+  escreverAqui.innerHTML=` `
+    escreverAqui.innerHTML=`    
+    <section id="sobre">
+    <div class="container">
+      <h2>O que é a IA Gemini?</h2>
+      <p>A IA Gemini é uma plataforma de inteligência artificial poderosa e acessível que permite que você automatize tarefas, otimize processos e tome decisões mais inteligentes.
+        Com recursos avançados de aprendizado de máquina e processamento de linguagem natural, a IA Gemini pode ser aplicada a diversos setores,
+        desde marketing e vendas até finanças e manufatura.</p>
+    </div>
+  </section>`;
+  let sobre=document.getElementById("sobre");
+  sobre.style.left="0px"
+}
+export function escreva2(){
+  escreverAqui.innerHTML=` `
+    escreverAqui.innerHTML=`    
+    <section id="funcionalidades">
+      <div class="container">
+        <h2>Funcionalidades</h2>
+        <ul>
+          <li>Análise de dados e geração de relatórios</li>
+          <li>Automação de tarefas repetitivas</li>
+          <li>Chatbots e atendimento ao cliente</li>
+          <li>Reconhecimento de imagem e vídeo</li>
+          <li>Previsão e análise de tendências</li>
+          <li>E muito mais!</li>
+        </ul>
+      </div>
+    </section>`;
+  let fun=document.getElementById("funcionalidades");
+  fun.style.left="0px"
+}
+export function escreva3(){
+  escreverAqui.innerHTML=` `
+    escreverAqui.innerHTML=`    
+    <section id="beneficios">
+      <div class="container">
+        <h2>Benefícios</h2>
+        <ul>
+          <li>Aumento da produtividade</li>
+          <li>Redução de custos</li>
+          <li>Melhoria na tomada de decisões</li>
+          <li>Novos insights de negócios</li>
+          <li>Vantagem competitiva</li>
+        </ul>
+      </div>
+    </section>`;
+  let beneficios=document.getElementById("beneficios");
+  beneficios.style.left="0px"
+}
+export function escreva4(){
+  escreverAqui.innerHTML=` `
+    escreverAqui.innerHTML=`    
+    <section id="contato">
+    <div class="container">
+      <h2>Entre em contato</h2>
+      
+      <p>Converse com nossos especialistas e saiba como a IA Gemini pode transformar seu negócio.</p>
+      <form action="#">
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>`;
+  let contato=document.getElementById("contato");
+  contato.style.left="0px"
+}
