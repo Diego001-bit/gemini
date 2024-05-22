@@ -14,7 +14,12 @@ export function escreva(){
     </div>
   </section>`;
   let sobre=document.getElementById("sobre");
-  sobre.style.left="0px"
+
+  function apareca(){
+    sobre.style.backgroundColor="#052159"
+    sobre.style.boxShadow="4px 4px 12px var(--cor2)"
+    }
+    setTimeout(apareca,300)
 }
 export function escreva2(){
   escreverAqui.innerHTML=` `
@@ -32,8 +37,12 @@ export function escreva2(){
         </ul>
       </div>
     </section>`;
-  let fun=document.getElementById("funcionalidades");
-  fun.style.left="0px"
+  let sobre=document.getElementById("funcionalidades");
+  function apareca(){
+    sobre.style.backgroundColor="#052159"
+    sobre.style.boxShadow="4px 4px 12px var(--cor2)"
+  }
+  setTimeout(apareca,300)
 }
 export function escreva3(){
   escreverAqui.innerHTML=` `
@@ -50,9 +59,14 @@ export function escreva3(){
         </ul>
       </div>
     </section>`;
-  let beneficios=document.getElementById("beneficios");
-  beneficios.style.left="0px"
+  let sobre=document.getElementById("beneficios");
+  function apareca(){
+    sobre.style.backgroundColor="#052159"
+    sobre.style.boxShadow="4px 4px 12px var(--cor2)"
+  }
+  setTimeout(apareca,300)
 }
+
 export function escreva4(){
   escreverAqui.innerHTML=` `
     escreverAqui.innerHTML=`    
@@ -69,6 +83,11 @@ export function escreva4(){
       </form>
     </div>
   </section>`;
-  let contato=document.getElementById("contato");
-  contato.style.left="0px"
+  let sobre=document.getElementById("contato");
+  
+  function apareca(){
+    sobre.style.backgroundColor="#052159"
+    sobre.style.boxShadow="4px 4px 12px var(--cor2)"
+    }
+    setTimeout(apareca,300) 
 }

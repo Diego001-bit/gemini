@@ -25,9 +25,13 @@ body {
     background-attachment: fixed;
 
   }
-  h1{
+  #meuTitulo{
+    position: relative;
     font-size: 4em;
     text-align: center;
+    color: transparent;
+    transition-duration: 3.5s;
+    left: -100px;
   }
   header {
     
@@ -66,15 +70,17 @@ body {
   }
   section{
     position: relative;
-    left: -100%;
     transition-duration: 2s;
     margin: 10px;
     padding: 5px;
-    border: 6px solid var(--cor1);
     border-radius: 4px;
-    box-shadow: 4px 4px 12px var(--cor2);
-    background-color: var(--cor0);
+    border: 6px solid var(--cor1);
+     /*box-shadow: 4px 4px 12px var(--cor2);
+    background-color: var(--cor0); */
   }
+  /* .container{
+    color: transparent;
+  } */
   article{
     display: flex;
     justify-content: center;
