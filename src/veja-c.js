@@ -8,18 +8,24 @@ export function escreva(){
     <section id="sobre">
     <div class="container">
       <h2>O que é a IA Gemini?</h2>
-      <p>A IA Gemini é uma plataforma de inteligência artificial poderosa e acessível que permite que você automatize tarefas, otimize processos e tome decisões mais inteligentes.
+      <p id="textop">A IA Gemini é uma plataforma de inteligência artificial poderosa e acessível que permite que você automatize tarefas, otimize processos e tome decisões mais inteligentes.
         Com recursos avançados de aprendizado de máquina e processamento de linguagem natural, a IA Gemini pode ser aplicada a diversos setores,
         desde marketing e vendas até finanças e manufatura.</p>
     </div>
   </section>`;
   let sobre=document.getElementById("sobre");
-
+  let puxando = document.getElementById("textop")
   function apareca(){
     sobre.style.backgroundColor="#052159"
     sobre.style.boxShadow="4px 4px 12px var(--cor2)"
     }
+    function puxa(){
+      puxando.style.left="0px"
+      puxando.style.color="black"
+    }
     setTimeout(apareca,300)
+    setTimeout(puxa,300)
+
 }
 export function escreva2(){
   escreverAqui.innerHTML=` `
@@ -27,7 +33,7 @@ export function escreva2(){
     <section id="funcionalidades">
       <div class="container">
         <h2>Funcionalidades</h2>
-        <ul>
+        <ul id="listas">
           <li>Análise de dados e geração de relatórios</li>
           <li>Automação de tarefas repetitivas</li>
           <li>Chatbots e atendimento ao cliente</li>
