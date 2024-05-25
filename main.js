@@ -7,4 +7,3 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("meuTitulo").style.color= "black";
     document.getElementById("meuTitulo").style.left="0px";
   });
-  setInterval(passando,4000)

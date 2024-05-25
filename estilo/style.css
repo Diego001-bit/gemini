@@ -56,17 +56,16 @@ body {
   ul{
     margin: 20px;
   }
+  #listinha,#lista, #textop{
+    position: relative;
+    color: transparent;
+    transition-duration: 1s;
+    left: -8px;
+  }
   main{
     width: 100%;
     min-height: 600px;
     max-width: 1000px;
-  }
-  #textop{
-    text-indent: 10px;
-    position: relative;
-    left: -5px;
-    transition-duration: 1s;
-    color: transparent;
   }
   #hero {
     height: 600px;
@@ -79,12 +78,7 @@ body {
     padding: 5px;
     border-radius: 4px;
     border: 6px solid var(--cor1);
-     /*box-shadow: 4px 4px 12px var(--cor2);
-    background-color: var(--cor0); */
   }
-  /* .container{
-    color: transparent;
-  } */
   article{
     display: flex;
     justify-content: center;

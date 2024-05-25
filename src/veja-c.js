@@ -33,7 +33,7 @@ export function escreva2(){
     <section id="funcionalidades">
       <div class="container">
         <h2>Funcionalidades</h2>
-        <ul id="listas">
+        <ul id="listinha">
           <li>Análise de dados e geração de relatórios</li>
           <li>Automação de tarefas repetitivas</li>
           <li>Chatbots e atendimento ao cliente</li>
@@ -44,11 +44,17 @@ export function escreva2(){
       </div>
     </section>`;
   let sobre=document.getElementById("funcionalidades");
+  let puxand= document.getElementById("listinha")
   function apareca(){
     sobre.style.backgroundColor="#052159"
     sobre.style.boxShadow="4px 4px 12px var(--cor2)"
   }
+  function puxarei(){
+    puxand.style.left="0px"
+    puxand.style.color="black"
+  }
   setTimeout(apareca,300)
+  setTimeout(puxarei,600)
 }
 export function escreva3(){
   escreverAqui.innerHTML=` `
@@ -56,7 +62,7 @@ export function escreva3(){
     <section id="beneficios">
       <div class="container">
         <h2>Benefícios</h2>
-        <ul>
+        <ul id="lista">
           <li>Aumento da produtividade</li>
           <li>Redução de custos</li>
           <li>Melhoria na tomada de decisões</li>
@@ -66,11 +72,17 @@ export function escreva3(){
       </div>
     </section>`;
   let sobre=document.getElementById("beneficios");
+  let puxand=document.getElementById("lista")
   function apareca(){
     sobre.style.backgroundColor="#052159"
     sobre.style.boxShadow="4px 4px 12px var(--cor2)"
   }
+  function puxarei(){
+    puxand.style.left="0px"
+    puxand.style.color="black"
+  }
   setTimeout(apareca,300)
+  setTimeout(puxarei,600)
 }
 
 export function escreva4(){
