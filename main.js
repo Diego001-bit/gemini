@@ -1,4 +1,4 @@
-import { escreva,escreva2,escreva3,escreva4,tudoAqui} from "./src/vejac";
+import { escreva,escreva2,escreva3,escreva4,tudoAqui} from "./vejac";
 tudoAqui[0].addEventListener("click",escreva)
 tudoAqui[1].addEventListener("click",escreva2)
 tudoAqui[2].addEventListener("click",escreva3)
