@@ -2,6 +2,7 @@
 *{
   margin: 0;
   padding: 0;
+  
 }
 :root{
   --cor0: #052159;
@@ -16,8 +17,12 @@ a{
   text-decoration: none;
   border-radius: 6px 6px 0px 0px;
 }
+nav li{
+  cursor: pointer;
+}
 body {
   display: flex;
+  cursor: default;
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
@@ -34,7 +39,6 @@ body {
     left: -100px;
   }
   header {
-    
     text-indent: 10px;
     background-image: linear-gradient(to right, var(--cor0), var(--cor2),black);
     background-repeat: no-repeat;
@@ -67,10 +71,6 @@ body {
     min-height: 600px;
     max-width: 1000px;
   }
-  #hero {
-    height: 600px;
-    text-align: center;
-  }
   section{
 
     transition-duration: 2s;
@@ -86,4 +86,15 @@ body {
   }
   img{
     width: 100%;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-indent: 10px;
+  }
+  footer{
+    position: absolute;
+    bottom: 5px;
   }
