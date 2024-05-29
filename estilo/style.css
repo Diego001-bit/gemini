@@ -32,7 +32,7 @@ body {
   }
   #meuTitulo{
     position: relative;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     color: transparent;
     transition-duration: 3.5s;
@@ -46,7 +46,7 @@ body {
   }
   header nav ul{
     display: flex;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 10px auto 0px auto;
     width: 90%;
     justify-content: space-evenly;
@@ -57,6 +57,10 @@ body {
     color: var(--cor1);
     background-color: black;
   }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px;
+  }
   ul{
     margin: 20px;
   }
@@ -64,6 +68,7 @@ body {
     position: relative;
     color: transparent;
     transition-duration: 1s;
+    
     left: -8px;
   }
   main{
@@ -91,8 +96,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
     text-indent: 10px;
+  }
+  #gemini{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   footer{
     position: absolute;
