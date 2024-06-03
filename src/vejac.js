@@ -5,7 +5,7 @@ let escreverAqui = document.getElementById("esc-aqui")
 export function escreva(){
   escreverAqui.innerHTML=` `
     escreverAqui.innerHTML=`    
-    <section id="sobres">
+    <section id="sobre">
     <div class="container">
       <h2>O que é a IA Gemini?</h2>
       <p id="textop">A IA Gemini é uma plataforma de inteligência artificial poderosa e acessível que permite que você automatize tarefas, otimize processos e tome decisões mais inteligentes.
