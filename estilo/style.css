@@ -15,7 +15,7 @@ a{
   padding: 5px;
   text-indent: 0px;
   text-decoration: none;
-  border-radius: 6px 6px 0px 0px;
+  border-radius: 6px;
 }
 nav li{
   cursor: pointer;
@@ -46,6 +46,8 @@ body {
   }
   header nav ul{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 1.5em;
     margin: 10px auto 0px auto;
     width: 80%;
@@ -58,10 +60,12 @@ body {
     background-color: black;
   }
   p{
+    font-size: 0.86em;
     font-family: Arial, Helvetica, sans-serif;
     margin: 4px;
   }
-  ul{
+  div ul li{
+    text-indent: 0px;
     margin: 20px;
   }
   #listinha,#lista, #textop{
