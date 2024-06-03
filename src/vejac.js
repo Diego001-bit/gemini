@@ -90,15 +90,8 @@ export function escreva4(){
     escreverAqui.innerHTML=`    
     <section id="contato">
     <div class="container">
-      <h2>Entre em contato</h2>
-      
-      <p>Converse com nossos especialistas e saiba como a IA Gemini pode transformar seu negócio.</p>
-      <form action="#">
-        <input type="text" placeholder="Nome">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Mensagem"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <h2>Precisa de ajuda?</h2>
+      <p>Diga-me em que precisa de ajuda</p>
     </div>
   </section>`;
   let sobre=document.getElementById("contato");
