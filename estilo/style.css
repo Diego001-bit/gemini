@@ -10,10 +10,10 @@
   --cor2: #0F528C;
 }
 a{
-  display: flex;
-  align-items: center;
-  color: white;
-  padding: 15px;
+  display: block;
+  color: black;
+  padding: 5px;
+  text-indent: 0px;
   text-decoration: none;
   border-radius: 6px 6px 0px 0px;
 }
@@ -48,7 +48,7 @@ body {
     display: flex;
     font-size: 1.5em;
     margin: 10px auto 0px auto;
-    width: 90%;
+    width: 80%;
     justify-content: space-evenly;
     list-style: none;
   }
@@ -104,6 +104,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   footer{
-    position: absolute;
+    position: relative;
     bottom: 5px;
   }
