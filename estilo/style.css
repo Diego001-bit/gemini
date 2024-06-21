@@ -1,112 +1,145 @@
 @charset "UTF-8";
-*{
+
+* {
   margin: 0;
   padding: 0;
-  
+
 }
-:root{
+
+:root {
   --cor0: #052159;
   --cor1: #031D40;
   --cor2: #0F528C;
 }
-a{
+header {
+  text-indent: 10px;
+  background-image: url("../imagem/tecnologia.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1010px;
+}
+a {
   display: block;
-  color: black;
+  color: white;
   padding: 5px;
   text-indent: 0px;
   text-decoration: none;
   border-radius: 6px;
 }
-nav li{
+#menuhome{
+  font-size: 2em;
+  align-items: center;
+}
+nav li {
   cursor: pointer;
 }
+
 body {
   display: flex;
   cursor: default;
-    flex-direction: column;
-    align-items: center;
-    font-family: sans-serif;
-    background-image: linear-gradient(to bottom, var(--cor0),var(--cor2),var(--cor1));
-    background-attachment: fixed;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background-image: linear-gradient(to bottom, var(--cor0), var(--cor2), var(--cor1));
+  background-attachment: fixed;
 
-  }
-  #meuTitulo{
-    position: relative;
-    font-size: 3em;
-    text-align: center;
-    color: transparent;
-    transition-duration: 3.5s;
-    left: -100px;
-  }
-  header {
-    text-indent: 10px;
-    background-image: linear-gradient(to right, var(--cor0), var(--cor2),black);
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-  header nav ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5em;
-    margin: 10px auto 0px auto;
-    width: 80%;
-    justify-content: space-evenly;
-    list-style: none;
-  }
-  header nav ul li a:hover{
-    transition-duration: 0.4s;
-    color: var(--cor1);
-    background-color: black;
-  }
-  p{
-    font-size: 0.86em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 4px;
-  }
-  div ul li{
-    text-indent: 0px;
-    margin: 20px;
-  }
-  #listinha,#lista, #textop{
-    position: relative;
-    color: transparent;
-    transition-duration: 1s;
-    left: -8px;
-  }
-  main{
-    width: 100%;
-    min-height: 600px;
-    max-width: 1000px;
-  }
-  section{
+}
 
-    transition-duration: 2s;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 4px;
-    border: 6px solid var(--cor1);
-  }
-  article{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-  }
-  img{
-    width: 100%;
-  }
-  .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-indent: 10px;
-  }
-  #gemini{
-    font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  footer{
-    position: relative;
-    bottom: 5px;
-  }
+#meuTitulo {
+  position: relative;
+  font-size: 3em;
+  text-align: center;
+  color: transparent;
+  transition-duration: 3.5s;
+  left: -100px;
+}
+
+
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+  margin: 10px auto 0px auto;
+  width: 80%;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+header nav ul li a:hover {
+  transition-duration: 0.4s;
+  color: ;
+  font-weight: bolder;
+  background-color: #05215936;
+}
+
+p {
+  font-size: 0.86em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 4px;
+}
+
+div ul li {
+  text-indent: 0px;
+  margin: 20px;
+}
+
+#listinha,
+#lista,
+#textop {
+  position: relative;
+  color: transparent;
+  transition-duration: 1s;
+  left: -8px;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px;
+  max-width: 1000px;
+}
+
+h2{
+  font-size: 1.4em;
+  text-align: center;
+}
+section {
+  transition-duration: 2s;
+  padding: 5px;
+  border-radius: 4px;
+  border: 6px solid var(--cor1);
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  font-size: 0.80em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-indent: 10px;
+}
+
+#gemini {
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  position: relative;
+  bottom: 5px;
+}
