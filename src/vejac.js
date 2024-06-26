@@ -91,7 +91,7 @@ export function escreva4(){
     <section id="contato">
     <div class="container">
       <h2>Precisa de ajuda?</h2>
-      <p>Diga-me em que precisa de ajuda</p>
+      <a href="https://gemini.google.com/app" id="gemini" target="_blank"><p>Diga-me em que precisa de ajuda</p></a>
     </div>
   </section>`;
   let sobre=document.getElementById("contato");
