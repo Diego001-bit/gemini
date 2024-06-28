@@ -95,7 +95,7 @@ div ul li {
 }
 
 main {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: white;
   padding: 5px;
   flex-direction: column;
   align-items: center;
@@ -132,13 +132,22 @@ img {
 }
 
 #gemini {
-  font-size: 2em;
+  font-size: 1.4em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+#gemini p:hover{
+  transition-duration: 1s;
+  color: yellow;
 }
 #hero {
   height: 100%;
 }
 @media screen and (min-width: 400px){
+  #gemini {
+    font-size: 1.2em;
+  }
     .container {
       font-size: 1.2em;
     }

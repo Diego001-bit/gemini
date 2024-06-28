@@ -17,7 +17,7 @@ export function escreva(){
   let puxando = document.getElementById("textop")
   function apareca(){
     sobre.style.backgroundColor="#052159"
-    sobre.style.boxShadow="4px 4px 12px var(--cor2)"
+    sobre.style.boxShadow="0px 4px 28px var(--cor2)"
     }
     function puxa(){
       puxando.style.left="0px"
@@ -91,7 +91,7 @@ export function escreva4(){
     <section id="contato">
     <div class="container">
       <h2>Precisa de ajuda?</h2>
-      <a href="https://gemini.google.com/app" id="gemini" target="_blank"><p>Diga-me em que precisa de ajuda</p></a>
+      <a href="https://gemini.google.com/app" id="gemini" target="_blank" ><p >Diga-me em que precisa de ajuda</p></a>
     </div>
   </section>`;
   let sobre=document.getElementById("contato");
