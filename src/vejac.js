@@ -21,7 +21,7 @@ export function escreva(){
     }
     function puxa(){
       puxando.style.left="0px"
-      puxando.style.color="black"
+      puxando.style.color="white"
     }
     setTimeout(apareca,300)
     setTimeout(puxa,300)
@@ -51,7 +51,7 @@ export function escreva2(){
   }
   function puxarei(){
     puxand.style.left="0px"
-    puxand.style.color="black"
+    puxand.style.color="white"
   }
   setTimeout(apareca,300)
   setTimeout(puxarei,600)
@@ -79,7 +79,7 @@ export function escreva3(){
   }
   function puxarei(){
     puxand.style.left="0px"
-    puxand.style.color="black"
+    puxand.style.color="white"
   }
   setTimeout(apareca,300)
   setTimeout(puxarei,600)

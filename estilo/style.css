@@ -103,6 +103,8 @@ main {
 }
 
 h2{
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.192);
+  color: rgb(0, 230, 230);
   font-size: 1.1em;
   text-align: center;
 }
