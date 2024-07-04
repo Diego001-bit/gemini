@@ -82,14 +82,7 @@ header nav ul li a:hover {
   background-color: #05215936;
 }
 
-#textop {
-  text-align: justify;
-  text-indent: 40px;
-  word-spacing: 4px;
-  font-size: 0.86em;
-  margin: 4px;
-}
-main p{
+p{
   text-align: justify;
   text-indent: 40px;
   word-spacing: 3px;
@@ -157,7 +150,7 @@ img {
   color: white;
   text-indent: 0px;
 }
-#gemini p:hover{
+#gemini div:hover{
   transition-duration: 1s;
   color: yellow;
 }
