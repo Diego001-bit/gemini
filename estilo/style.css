@@ -83,6 +83,7 @@ header nav ul li a:hover {
 }
 
 p {
+  text-align: justify;
   text-indent: 40px;
   word-spacing: 4px;
   font-size: 0.86em;
